@@ -114,5 +114,5 @@ function GitStatus
     fi
 }
 
-export PS1="\$(ExitStatus)$BLUE[$RESET\$(date +%H:%M)$BLUE]$RESET $GREEN\u$RESET @ $GREEN\h$RESET: $YELLOW\w$RESET \$(GitStatus)\n\$ "
+export PS1="\$(ExitStatus)$BLUE[$RESET\$(date +%H:%M)$BLUE]$RESET $GREEN\u$RESET@$GREEN\h$RESET: $YELLOW\w$RESET \$(GitStatus)\n\$ "
 
